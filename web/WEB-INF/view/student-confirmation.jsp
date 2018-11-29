@@ -27,10 +27,9 @@ Language: ${student.favouriteLang}
 <br><br>
 
 Operating System:
-<ul>
-    <c:forEach var="temp" items="${student.opSys}">
+    <ul>
+    <c:foreach var="temp" items="${student.opSys}"/>
         <li>${temp}</li>
-    </c:forEach>
-</ul>
+    </ul>
 </body>
 </html>
