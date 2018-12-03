@@ -10,6 +10,7 @@ public class Student {
     private String favouriteLang;
     private String[] opSys;
 
+
     private LinkedHashMap<String, String> countries;
     private LinkedHashMap<String, String> languages;
 
@@ -68,6 +69,7 @@ public class Student {
     }
 
     public String[] getOpSys() {
+
         return opSys;
     }
 
